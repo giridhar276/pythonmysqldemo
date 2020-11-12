@@ -1,0 +1,36 @@
+display all existing databases
+-------------------------------
+show databases ;
+
+create your database
+--------------------
+create database realestate;
+
+access your database
+---------------------
+use realestate;
+
+creating table
+---------------
+create table realestate(street varchar(100) , city varchar(100) );
+
+inserting records
+-----------------
+insert into realestate values('karveRoad','Pune');
+insert into realestate values('Miyapur','Hyderabad');
+
+
+displaying the records
+---------------------
+select * from realestate;
+
+view the structure
+------------------
+desc realestate;
+
+
+
+
+
+
+
